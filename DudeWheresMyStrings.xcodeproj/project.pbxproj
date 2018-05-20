@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		55355B1620AB391100C81D4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55355B1520AB391100C81D4A /* AppDelegate.m */; };
-		55355B1920AB391100C81D4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55355B1820AB391100C81D4A /* ViewController.m */; };
+		55355B1920AB391100C81D4A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55355B1820AB391100C81D4A /* ViewController.mm */; };
 		55355B1C20AB391100C81D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55355B1A20AB391100C81D4A /* Main.storyboard */; };
 		55355B1E20AB391200C81D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55355B1D20AB391200C81D4A /* Assets.xcassets */; };
 		55355B2120AB391200C81D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55355B1F20AB391200C81D4A /* LaunchScreen.storyboard */; };
 		55355B2420AB391200C81D4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55355B2320AB391200C81D4A /* main.m */; };
+		55355B3320ABB42400C81D4A /* CPPClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55355B3220ABB42400C81D4A /* CPPClient.cpp */; };
+		55C9207E20AF9BBC007E1B1F /* ObjCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C9207D20AF9BBC007E1B1F /* ObjCClient.m */; };
+		55C9208120AF9BCC007E1B1F /* SwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C9208020AF9BCC007E1B1F /* SwiftClient.swift */; };
+		55C9208320AF9E38007E1B1F /* NinjaClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55C9208220AF9E38007E1B1F /* NinjaClient.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55355B1120AB391100C81D4A /* DudeWheresMyStrings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DudeWheresMyStrings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55355B1420AB391100C81D4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55355B1520AB391100C81D4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55355B1720AB391100C81D4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55355B1820AB391100C81D4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55355B1720AB391100C81D4A /* ViewController.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ViewController.hh; sourceTree = "<group>"; };
+		55355B1820AB391100C81D4A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		55355B1B20AB391100C81D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55355B1D20AB391200C81D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55355B2020AB391200C81D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55355B2220AB391200C81D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55355B2320AB391200C81D4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55355B3220ABB42400C81D4A /* CPPClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClient.cpp; sourceTree = "<group>"; };
+		55C9207C20AF9BBC007E1B1F /* ObjCClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCClient.h; sourceTree = "<group>"; };
+		55C9207D20AF9BBC007E1B1F /* ObjCClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCClient.m; sourceTree = "<group>"; };
+		55C9207F20AF9BCB007E1B1F /* DudeWheresMyStrings-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DudeWheresMyStrings-Bridging-Header.h"; sourceTree = "<group>"; };
+		55C9208020AF9BCC007E1B1F /* SwiftClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClient.swift; sourceTree = "<group>"; };
+		55C9208220AF9E38007E1B1F /* NinjaClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NinjaClient.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +70,19 @@
 			children = (
 				55355B1420AB391100C81D4A /* AppDelegate.h */,
 				55355B1520AB391100C81D4A /* AppDelegate.m */,
-				55355B1720AB391100C81D4A /* ViewController.h */,
-				55355B1820AB391100C81D4A /* ViewController.m */,
+				55355B1720AB391100C81D4A /* ViewController.hh */,
+				55355B1820AB391100C81D4A /* ViewController.mm */,
+				55C9207C20AF9BBC007E1B1F /* ObjCClient.h */,
+				55C9207D20AF9BBC007E1B1F /* ObjCClient.m */,
+				55C9208020AF9BCC007E1B1F /* SwiftClient.swift */,
+				55355B3220ABB42400C81D4A /* CPPClient.cpp */,
+				55C9208220AF9E38007E1B1F /* NinjaClient.cpp */,
 				55355B1A20AB391100C81D4A /* Main.storyboard */,
 				55355B1D20AB391200C81D4A /* Assets.xcassets */,
 				55355B1F20AB391200C81D4A /* LaunchScreen.storyboard */,
 				55355B2220AB391200C81D4A /* Info.plist */,
 				55355B2320AB391200C81D4A /* main.m */,
+				55C9207F20AF9BCB007E1B1F /* DudeWheresMyStrings-Bridging-Header.h */,
 			);
 			path = DudeWheresMyStrings;
 			sourceTree = "<group>";
@@ -102,6 +118,7 @@
 				TargetAttributes = {
 					55355B1020AB391100C81D4A = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -141,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55355B1920AB391100C81D4A /* ViewController.m in Sources */,
+				55355B1920AB391100C81D4A /* ViewController.mm in Sources */,
+				55C9208320AF9E38007E1B1F /* NinjaClient.cpp in Sources */,
 				55355B2420AB391200C81D4A /* main.m in Sources */,
+				55355B3320ABB42400C81D4A /* CPPClient.cpp in Sources */,
 				55355B1620AB391100C81D4A /* AppDelegate.m in Sources */,
+				55C9208120AF9BCC007E1B1F /* SwiftClient.swift in Sources */,
+				55C9207E20AF9BBC007E1B1F /* ObjCClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +196,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -220,10 +244,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -233,6 +258,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -272,9 +300,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -285,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
 				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
 				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
@@ -292,6 +322,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KY9GEE2B9X;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -307,6 +338,7 @@
 				GCC_WARN_UNUSED_LABEL = NO;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				INFOPLIST_FILE = DudeWheresMyStrings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +346,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.psobko.DudeWheresMyStrings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DudeWheresMyStrings/DudeWheresMyStrings-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -326,6 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
 				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
 				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
@@ -333,6 +370,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KY9GEE2B9X;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -346,6 +384,7 @@
 				GCC_WARN_UNUSED_LABEL = NO;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				INFOPLIST_FILE = DudeWheresMyStrings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,6 +392,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.psobko.DudeWheresMyStrings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DudeWheresMyStrings/DudeWheresMyStrings-Bridging-Header.h";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
