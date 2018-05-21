@@ -17,6 +17,9 @@
 		55C9207E20AF9BBC007E1B1F /* ObjCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C9207D20AF9BBC007E1B1F /* ObjCClient.m */; };
 		55C9208120AF9BCC007E1B1F /* SwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C9208020AF9BCC007E1B1F /* SwiftClient.swift */; };
 		55C9208320AF9E38007E1B1F /* NinjaClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55C9208220AF9E38007E1B1F /* NinjaClient.cpp */; };
+		55C9208620B222BD007E1B1F /* ObfuscatorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C9208520B222BD007E1B1F /* ObfuscatorClient.m */; };
+		55C9208920B2251B007E1B1F /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C9208820B2251B007E1B1F /* Globals.m */; };
+		EC8E280604F8322EEFCC4425 /* libPods-DudeWheresMyStrings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EC16DABB81D8D2EBD9C47A /* libPods-DudeWheresMyStrings.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,13 @@
 		55C9207F20AF9BCB007E1B1F /* DudeWheresMyStrings-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DudeWheresMyStrings-Bridging-Header.h"; sourceTree = "<group>"; };
 		55C9208020AF9BCC007E1B1F /* SwiftClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClient.swift; sourceTree = "<group>"; };
 		55C9208220AF9E38007E1B1F /* NinjaClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NinjaClient.cpp; sourceTree = "<group>"; };
+		55C9208420B222BD007E1B1F /* ObfuscatorClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObfuscatorClient.h; sourceTree = "<group>"; };
+		55C9208520B222BD007E1B1F /* ObfuscatorClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObfuscatorClient.m; sourceTree = "<group>"; };
+		55C9208720B2251B007E1B1F /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		55C9208820B2251B007E1B1F /* Globals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Globals.m; sourceTree = "<group>"; };
+		91EC16DABB81D8D2EBD9C47A /* libPods-DudeWheresMyStrings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DudeWheresMyStrings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C5DA0201D76DC9D4CA330D /* Pods-DudeWheresMyStrings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DudeWheresMyStrings.release.xcconfig"; path = "Pods/Target Support Files/Pods-DudeWheresMyStrings/Pods-DudeWheresMyStrings.release.xcconfig"; sourceTree = "<group>"; };
+		FE7E6798D37F0CEB8E5E87F2 /* Pods-DudeWheresMyStrings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DudeWheresMyStrings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DudeWheresMyStrings/Pods-DudeWheresMyStrings.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8E280604F8322EEFCC4425 /* libPods-DudeWheresMyStrings.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49E42B3F03BF2498D9D6EEF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91EC16DABB81D8D2EBD9C47A /* libPods-DudeWheresMyStrings.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55355B0820AB391100C81D4A = {
 			isa = PBXGroup;
 			children = (
 				55355B1320AB391100C81D4A /* DudeWheresMyStrings */,
 				55355B1220AB391100C81D4A /* Products */,
+				A602C63EB6D01DAD448F5D40 /* Pods */,
+				49E42B3F03BF2498D9D6EEF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,8 +89,12 @@
 		55355B1320AB391100C81D4A /* DudeWheresMyStrings */ = {
 			isa = PBXGroup;
 			children = (
+				55C9208720B2251B007E1B1F /* Globals.h */,
+				55C9208820B2251B007E1B1F /* Globals.m */,
 				55355B1420AB391100C81D4A /* AppDelegate.h */,
 				55355B1520AB391100C81D4A /* AppDelegate.m */,
+				55C9208420B222BD007E1B1F /* ObfuscatorClient.h */,
+				55C9208520B222BD007E1B1F /* ObfuscatorClient.m */,
 				55355B1720AB391100C81D4A /* ViewController.hh */,
 				55355B1820AB391100C81D4A /* ViewController.mm */,
 				55C9207C20AF9BBC007E1B1F /* ObjCClient.h */,
@@ -87,6 +112,15 @@
 			path = DudeWheresMyStrings;
 			sourceTree = "<group>";
 		};
+		A602C63EB6D01DAD448F5D40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE7E6798D37F0CEB8E5E87F2 /* Pods-DudeWheresMyStrings.debug.xcconfig */,
+				B0C5DA0201D76DC9D4CA330D /* Pods-DudeWheresMyStrings.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +128,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55355B2720AB391200C81D4A /* Build configuration list for PBXNativeTarget "DudeWheresMyStrings" */;
 			buildPhases = (
+				FD29265323AC87E1FE2C6A3B /* [CP] Check Pods Manifest.lock */,
 				55355B0D20AB391100C81D4A /* Sources */,
 				55355B0E20AB391100C81D4A /* Frameworks */,
 				55355B0F20AB391100C81D4A /* Resources */,
@@ -153,15 +188,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FD29265323AC87E1FE2C6A3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DudeWheresMyStrings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55355B0D20AB391100C81D4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				55355B1920AB391100C81D4A /* ViewController.mm in Sources */,
+				55C9208920B2251B007E1B1F /* Globals.m in Sources */,
 				55C9208320AF9E38007E1B1F /* NinjaClient.cpp in Sources */,
 				55355B2420AB391200C81D4A /* main.m in Sources */,
 				55355B3320ABB42400C81D4A /* CPPClient.cpp in Sources */,
+				55C9208620B222BD007E1B1F /* ObfuscatorClient.m in Sources */,
 				55355B1620AB391100C81D4A /* AppDelegate.m in Sources */,
 				55C9208120AF9BCC007E1B1F /* SwiftClient.swift in Sources */,
 				55C9207E20AF9BBC007E1B1F /* ObjCClient.m in Sources */,
@@ -235,8 +293,9 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
+					"COCOAPODS=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -294,6 +353,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -302,6 +362,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VALIDATE_PRODUCT = YES;
@@ -310,6 +371,7 @@
 		};
 		55355B2820AB391200C81D4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7E6798D37F0CEB8E5E87F2 /* Pods-DudeWheresMyStrings.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
@@ -326,10 +388,10 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
@@ -343,12 +405,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.psobko.DudeWheresMyStrings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "DudeWheresMyStrings/DudeWheresMyStrings-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -358,6 +421,7 @@
 		};
 		55355B2920AB391200C81D4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C5DA0201D76DC9D4CA330D /* Pods-DudeWheresMyStrings.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
@@ -375,7 +439,7 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
@@ -393,7 +457,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "DudeWheresMyStrings/DudeWheresMyStrings-Bridging-Header.h";
-				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

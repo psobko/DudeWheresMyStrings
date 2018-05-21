@@ -1,0 +1,16 @@
+PODS:
+  - Obfuscator (2.0.0)
+
+DEPENDENCIES:
+  - Obfuscator (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Obfuscator
+
+SPEC CHECKSUMS:
+  Obfuscator: 9573f662415f048c1de91f99aa10626dd50e5007
+
+PODFILE CHECKSUM: f9eba7e4190fc6a4cabe7b70f25869e5e37380d4
+
+COCOAPODS: 1.5.0

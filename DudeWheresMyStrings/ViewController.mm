@@ -3,6 +3,7 @@
 #include "NinjaClient.cpp"
 #import "ObjCClient.h"
 #import "DudeWheresMyStrings-Swift.h"
+#import "ObfuscatorClient.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,7 @@
     [SwiftClient start];
     [ObjCClient start];
     NinjaClient::start();
-
+    [ObfuscatorClient start];
 }
 
 
